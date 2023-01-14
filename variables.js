@@ -13,4 +13,5 @@ if (humano.sex == true) {
 } else {
     humano.modal = "Femenino";
 }
-console.log(humano);
+console.log(humano); //imprime todos los valores dentro del objeto
+
