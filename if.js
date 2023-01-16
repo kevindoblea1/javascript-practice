@@ -4,8 +4,9 @@ if (false) {
     console.log("falso");
 }
 
-var edad = 21;
 
+//identificar la edad de un votante. con un if anidado
+var edad = 21;
 if (edad === 18) {
     console.log("Puedes votar, es tu primera votacion")
 }else if (edad > 18) {
@@ -13,3 +14,10 @@ if (edad === 18) {
 } else {
     console.log("No puedes votar aun")
 }
+
+//operador ternario
+var numero = 1;
+
+numero>18 ? console.log("true") : console.log("false");
+
+
