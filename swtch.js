@@ -1,26 +1,16 @@
-import { createInterface } from "redline";
-var n1 = 0;
-var n2 = 0;
-let interfazCaptura = createInterface ({
-    input: process.stdin,
-    output: process.stdout
-});
-console.log("Calculadora en java script");
-console.log("Seleccione la opcion introduciendo el numero correspondiente: ")
-function selectMenu(){
-interfazCaptura.question("1 suma, 2 Resta, 3 Multiplicacion, 4")
-}
-selectMenu();
-function suma(n1,n2 ) {
 
-}
-function Resta(n1,n2 ) {
-
-}
-function multi(n1,n2 ) {
-
-}
-function division(n1,n2 ) {
-
-}
-
+function solution(article) {
+    if (article === 'computadora') {
+      return "Con mi computadora puedo programar usando JavaScript";
+    } else if (article === 'celular') { 
+      return "En mi celular puedo aprender usando la app de Platzi";
+    } else if (article === 'cable') {
+      return "¡Hay un cable en mi bota!";
+    } else {
+      return "Artículo no encontrado";
+    }
+  }
+console.log(solution("computadora"));
+console.log(solution("celular"));
+console.log(solution("cable"));
+console.log(solution("no esta en lista"));
