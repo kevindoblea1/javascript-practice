@@ -18,6 +18,6 @@ if (edad === 18) {
 //operador ternario
 var numero = 1;
 
-numero>18 ? console.log("true") : console.log("false");
+numero > 18 ? console.log("true") : console.log("false");
 
 

@@ -1,5 +1,5 @@
 //declarar un arreglo.
-var frutas = ["limon", "fresa", "aguacate", 'manzana'];
+var frutas = ["limon", "fresa", "aguacate", "manzana"];
 
 //mostrar, en el ejemplo mostraremos el 3
 console.log(frutas[2]);
@@ -19,3 +19,8 @@ console.log(frutas[0]);
 //eliminar el primer elemento del arreglo
 var delFruta = frutas.shift();
 console.log(frutas[0]);
+
+//para poder buscar el index de un elemento del array
+console.log("+++++++++++++++++++++++++++++++++")
+var pos = frutas.indexOf("manzana");
+console.log(pos);
