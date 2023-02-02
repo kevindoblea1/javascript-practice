@@ -1,1 +1,4 @@
 my-next-app/
+node_modules/
+package-lock.json
+package.json
