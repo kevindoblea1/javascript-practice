@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+}
+body{
+   background: -webkit-gradient(linear, left top, left bottom, from(#34bdfc), to(#f5f8fa));
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    float: left;
+    text-align: center;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+  }
+  #contenedorTitulo {
+    display: flex;
+    justify-content: center;
+  }
+  ul.nav {
+   list-style: none;
+   display: block;
+   width: 200px;
+   position: relative;
+   top: 50px;
+   left: 100px;
+   padding: 60px 0 60px 0;
+   -webkit-background-size: 50% 100%;
+   -moz-background-size: 50% 100%;
+   -o-background-size: 50% 100%;
+}
