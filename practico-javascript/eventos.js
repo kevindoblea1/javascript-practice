@@ -8,5 +8,4 @@ const parrafo = document.getElementById('resultado');
 function btnOnClick () {
     let suma = Number(input1.value) + Number(input2.value);
     console.log(suma);
-    parrafo.innerText = "Resultado: " + suma;
 }
